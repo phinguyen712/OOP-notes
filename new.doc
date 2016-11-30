@@ -1,0 +1,19 @@
+the new keyword
+  -creates an empty object
+  -sets the keyword this to be that empty object
+  -it add the line "return this" to the end of the functions that follows it
+  -it add property onto the empty object called "_proto_", which links
+    the proptotype property on the constructor function to the empty object
+Javascript does not have class support so the new keyword constructor functions
+are used to replace it.
+  Blueprint are classes
+  Objects are instances
+    example 1.
+
+Prototype,_proto_
+
+
+-Closure exists an inner function make use of a variable declared from the outer function
+which has previously returned
+-We can use closures to create private variables and write better code that isolate
+our logic and application

@@ -1,0 +1,25 @@
+The keyword This is determined by how a function is called based on the following context
+Global,Object/implicit,explicit,new
+
+Global- refer to the global window object(everything declared in a global context is in the
+        windows object).
+        use "use strict" to prevent accidently create global variables
+        using strict in objects
+                Examples 3.
+
+Object/Implicit-Used inside a function that is inside an object
+                .This will be bind to that object
+                Example 2.
+
+Explicit-use Call/Apply/Bind for outside of an object.these methods will allow us to
+        bind to any object.
+                Example 3.
+
+
+  Call  = thisArg,a,b,c,d..  invoke immediately
+  Apply = thisArg,[a,b,c,d]  invoke immediately
+  Bind  = thisArg,a,b,c,d    invoke at a later time(use with ASYNC).
+                              bind(this)saves selected as object to be called later;
+
+New-this can be use if the key word "new" is used to create a constructor function
+              Example 4.
